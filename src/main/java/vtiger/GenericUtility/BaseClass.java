@@ -33,6 +33,7 @@ public class BaseClass {
 			public static WebDriver sDriver;
 			//reading required data from external resource
 			
+			 
 			
 			@BeforeSuite(alwaysRun=true)
 			public void bsConfig() {
