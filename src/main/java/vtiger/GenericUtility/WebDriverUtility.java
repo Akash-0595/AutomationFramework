@@ -64,8 +64,9 @@ public class WebDriverUtility {
     * @param element
     */
     public void waitForElemenetToBeClickable(WebDriver driver,WebElement element) {
-	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
-	wait.until(ExpectedConditions.elementToBeClickable(element));
+	
+    	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
+    	wait.until(ExpectedConditions.elementToBeClickable(element));
     }
     /**
     * This method will handle drop down by index
@@ -73,8 +74,9 @@ public class WebDriverUtility {
     * @param index
     */
     public void handleDropdown(WebElement element,int index) {
-	Select s=new Select(element);
-	s.selectByIndex(index);
+	
+    	Select s=new Select(element);
+	    s.selectByIndex(index);
     }
     /**
     * This method will handle drop down by value
@@ -136,8 +138,7 @@ public class WebDriverUtility {
     public void doubleClickAction(WebDriver driver,WebElement element) {
  	  Actions act=new Actions(driver);
 	  act.doubleClick(element).perform();
-    }
-    /**
+    }    /**
     * This method will perform drag and drop from one element to another
     * @param driver
     * @param srcelement

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vtiger.practice.AssertionsPractise">
+      <class name="vtiger.practice.SimpleExecuteUpdate">
         <methods>
-          <include name="Practise"/>
+          <include name="Simp"/>
         </methods>
-      </class> <!-- vtiger.practice.AssertionsPractise -->
+      </class> <!-- vtiger.practice.SimpleExecuteUpdate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

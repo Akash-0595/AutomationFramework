@@ -5,7 +5,7 @@ package vtiger.GenericUtility;
  * @author akash kumar bhanja
  *
  */
-public interface IConstantsUtility {
+ public interface IConstantsUtility {
 	//by default all the variables are public static final in interface
 	
 static String propertyfilepath=".\\src\\test\\resources\\Commondata.properties";
